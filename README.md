@@ -1,28 +1,20 @@
 # SQL Data Analysis Project: Northwind Retail Dataset
 
-## Overview
-
-This project is an end-to-end **SQL and Excel data analysis case study** using the Northwind database, a standard retail dataset. It demonstrates how to extract, analyse, and present business insights using structured data.
-
-The project reflects real-world data analyst tasks, from querying databases to communicating insights through visualisations.
+# Overview
+This project is an end-to-end **SQL and Excel data analysis case study** using the Northwind database, a standard retail dataset. It demonstrates how to extract, analyse, and present business insights using structured data. The project reflects real-world data analyst tasks, from querying databases to communicating insights through visualisations.
 
 
+# Objectives
+##The project aims to:
 
-## Objectives
-
-The project aims to:
-
-* Apply core SQL concepts to solve business problems
-* Extract meaningful insights from a relational database
+* Import Data into database and profile the Datasets
+* Extract meaningful insights from a relational database (sqlite)
 * Clean and validate data for accurate reporting
+* Apply core SQL concepts to solve business problems
 * Present findings using Excel visualisations
-* Build a portfolio-ready data analysis workflow
 
-
-
-## Dataset
-
-The dataset used is the **Northwind SQLite database**, which contains retail business data across multiple tables, including:
+# Dataset
+The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, which contains retail business data across multiple tables, including:
 
 * Customers
 * Orders
@@ -31,17 +23,13 @@ The dataset used is the **Northwind SQLite database**, which contains retail bus
 * Suppliers
 * Categories
 
+[Northwind SQLite database](https://www.kaggle.com/datasets/munawarsaudagar/northwind-2000-sqlite?resource=download)
 
+# Tools & Technologies
 
-## Tools & Technologies
-
-* SQL (SQLite)
+* SQL (SQLite Online)
 * Excel (for analysis and visualisation)
-* SQLite Online
 
-
-
-## Project Workflow
 
 ### 1. Data Loading
 
