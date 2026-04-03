@@ -5,13 +5,31 @@ This project is an end-to-end **SQL and Excel data analysis case study** using t
 
 
 # Objectives
-##The project aims to:
-
+## The project aims to:
 * Import Data into database and profile the Datasets
 * Extract meaningful insights from a relational database (sqlite)
 * Clean and validate data for accurate reporting
 * Apply core SQL concepts to solve business problems
 * Present findings using Excel visualisations
+
+
+# Executive Summary
+This analysis of the Northwind retail dataset provides key insights into customer behaviour, operational efficiency, and overall business performance.
+
+The business demonstrates a **strong and active customer base**, with 830 total orders generating a revenue of **126,579.04**, indicating healthy commercial activity. However, performance is **not evenly distributed** across customers, products, or regions.
+
+A small group of **high-value, repeat customers** drives a significant share of total orders, highlighting the importance of retention strategies. Similarly, **freight costs are concentrated among a few customers**, suggesting that a minority contributes heavily to shipping expenses, while most customers operate at lower cost levels.
+
+Geographically, the customer base is **globally distributed but heavily concentrated in key markets**, particularly **Brazil, France, and Germany**, with Brazil emerging as the strongest growth opportunity. This uneven distribution highlights clear regions for expansion and strategic focus.
+
+From a product perspective, inventory is **unevenly distributed across categories**, with certain categories dominating, indicating both **focused investment areas and potential gaps** for expansion or diversification.
+
+Operationally, the business faces **data quality and process challenges**. Missing region data across multiple countries reveals a **systemic data management issue**, which could impact logistics and customer segmentation. In addition, **21 pending shipments** point to inefficiencies in the order fulfilment process that may affect customer satisfaction.
+
+On the supply side, the company maintains a **diversified supplier base**, reducing dependency risks but potentially limiting opportunities for strategic supplier consolidation and cost optimisation.
+
+Overall, the business is performing well but can unlock further value by improving **data quality, operational efficiency, customer retention strategies, and targeted market expansion**.
+
 
 # Dataset
 The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, which contains retail business data across multiple tables, including:
@@ -30,14 +48,15 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 * SQL (SQLite Online)
 * Excel (for analysis and visualisation)
 
-
-### 1. Data Loading
-
+# Project Workflow
+## 1. Database Accessing
+* Downloaded the Northwind `.sqlite` database from Kaggle
+   
+## 2. Data Loading
 * Imported the Northwind `.sqlite` database into SQLite Online
-* Explored tables and relationships
+* Profiled tables and relationships
 
-### 2. SQL Analysis
-
+## 3. SQL Analysis/Querying
 * Wrote and executed queries to answer business-focused questions
 * Applied concepts such as:
 
@@ -48,34 +67,28 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
   * HAVING
   * Aliasing
 
-### 3. Data Export
-
+## 4. Data Export
 * Exported query results into Excel files
 
-### 4. Visualisation
-
-* Created charts (bar, column, line) using Excel
+## 5. Visualisation
+* Created visuals (bar, column, line) using Excel
 * Added titles and structured sheets for clarity
 
 
-
-## Key Business Questions Solved
-
-1. Customer distribution across countries
-2. Missing customer region data
-3. Total number of orders
-4. Total revenue generated
-5. Product count by category
-6. High-value customers (based on order volume)
-7. Average order value per customer
-8. Key suppliers with multiple products
-9. Countries with strong customer base
-10. Orders pending shipment
+# Key Business Questions Solved
+1. List of unique countries where customers are located
+2. All customers who do not have a region assigned
+3. Total number of orders placed
+4. Total revenue using the Order Details table
+5. Total number of products in each category
+6. Customers who have placed more than 10 orders
+7. Average freight cost per customer
+8. Suppliers who supply more than 5 products
+9. Countries that have more than 5 customers
+10. Total number of orders that have not been shipped yet
 
 
-
-## Key Skills Demonstrated
-
+# Key Skills Demonstrated
 * SQL querying and database interaction
 * Data cleaning and validation
 * Business-oriented data analysis
@@ -85,26 +98,102 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 
 
 
-## Sample Insight
+# Key Insight
+## Global distribution of Customer base 
+👉 *“The customer base is globally distributed but heavily concentrated in Europe, indicating a strong core market with opportunities for geographic expansion.”*
 
-* Identified key markets with high customer concentration
-* Highlighted incomplete customer data affecting operations
-* Estimated total revenue using transactional data
-* Flagged unshipped orders for operational follow-up
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+
+## Incomplete customer data 
+👉 *“Customer data shows widespread missing region information across multiple countries, highlighting a systemic data quality issue that could impact operations and decision-making.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+![image alt](banking_database_er_diagram.jpg)
+
+## Order Volume Overview 
+👉 *“The company has handled 830 orders, reflecting strong customer activity and providing a solid foundation for deeper performance and revenue analysis.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+
+## Total revenue generated
+👉 *“The business generated a total revenue of 126,579.04, highlighting overall performance while reflecting the impact of pricing and discount strategies.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+
+## Product Performance 
+👉 *“Product distribution is uneven across categories, with a few categories dominating inventory, indicating focused investment areas and potential gaps for expansion.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+![image alt](banking_database_er_diagram.jpg)
+
+## High-Value Customers 
+👉 *“A small group of repeat customers drives a large share of orders, highlighting key accounts for retention and opportunities to increase order frequency among mid-tier customers.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+![image alt](banking_database_er_diagram.jpg)
+
+## Average Order Value 
+👉 *“Freight costs are unevenly distributed, with a small group of customers driving a large share of shipping expenses, while most customers maintain relatively low average costs.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+![image alt](banking_database_er_diagram.jpg)
+
+## Suppliers with Multiple Products 
+👉 *“No supplier dominates product supply, indicating a diversified supplier base with reduced risk but potential opportunities for strategic supplier consolidation.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+
+## Countries with High Customer Base 
+👉 *“Customer distribution is concentrated in a few key markets, with Brazil leading, indicating strong expansion opportunities and clear priority regions for growth.”*
+
+* SQL QUERY
+![image alt](banking_database_er_diagram.jpg)
+
+* Result
+![image alt](banking_database_er_diagram.jpg)
+![image alt](banking_database_er_diagram.jpg)
+
+## Delayed or unshipped Orders
+👉 *“21 pending shipments highlight potential fulfilment delays, signalling the need for improved operational efficiency and order tracking.”*
 
 
-
-## Purpose
-
+# Purpose
 This project was developed to demonstrate **practical SQL and data analysis skills** required for entry-level data analyst roles. It showcases the ability to work with real datasets, generate insights, and present findings in a clear and structured manner.
 
 
-
-## Author
-
-**Kolawole Ilesanmi**
+# Author
+##Kolawole Ilesanmi
 Data Analyst | Business Intelligence Developer
-
-
-Just tell me 👍
 
