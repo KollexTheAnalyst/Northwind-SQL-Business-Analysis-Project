@@ -103,90 +103,96 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 👉 *“The customer base is globally distributed but heavily concentrated in Europe, indicating a strong core market with opportunities for geographic expansion.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt]([banking_database_er_diagram.jpg](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q1_SQL.jpg))
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q1_P.jpg)
 
 ## Incomplete customer data 
 👉 *“Customer data shows widespread missing region information across multiple countries, highlighting a systemic data quality issue that could impact operations and decision-making.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt]([banking_database_er_diagram.jpg](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q2_SQL.jpg))
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q2_P.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q2_PP.jpg)
 
 ## Order Volume Overview 
 👉 *“The company has handled 830 orders, reflecting strong customer activity and providing a solid foundation for deeper performance and revenue analysis.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q3_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q3_P.jpg)
 
 ## Total revenue generated
 👉 *“The business generated a total revenue of 126,579.04, highlighting overall performance while reflecting the impact of pricing and discount strategies.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q4_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q4_P.jpg)
 
 ## Product Performance 
 👉 *“Product distribution is uneven across categories, with a few categories dominating inventory, indicating focused investment areas and potential gaps for expansion.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q5_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q5_P.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q5_PP.jpg)
 
 ## High-Value Customers 
 👉 *“A small group of repeat customers drives a large share of orders, highlighting key accounts for retention and opportunities to increase order frequency among mid-tier customers.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q6_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q6_P.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q6_PP.jpg)
 
 ## Average Order Value 
 👉 *“Freight costs are unevenly distributed, with a small group of customers driving a large share of shipping expenses, while most customers maintain relatively low average costs.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q7_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q7_P.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q7_PP.jpg)
 
 ## Suppliers with Multiple Products 
 👉 *“No supplier dominates product supply, indicating a diversified supplier base with reduced risk but potential opportunities for strategic supplier consolidation.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q8_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q8_P.jpg)
 
 ## Countries with High Customer Base 
 👉 *“Customer distribution is concentrated in a few key markets, with Brazil leading, indicating strong expansion opportunities and clear priority regions for growth.”*
 
 * SQL QUERY
-![image alt](banking_database_er_diagram.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q9_SQL.jpg)
 
-* Result
-![image alt](banking_database_er_diagram.jpg)
-![image alt](banking_database_er_diagram.jpg)
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q9_P.jpg)
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q9_PP.jpg)
 
 ## Delayed or unshipped Orders
 👉 *“21 pending shipments highlight potential fulfilment delays, signalling the need for improved operational efficiency and order tracking.”*
+
+* SQL QUERY
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q10_SQL.jpg)
+
+* Finding
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q10_P.jpg)
 
 
 # Purpose
@@ -194,6 +200,6 @@ This project was developed to demonstrate **practical SQL and data analysis skil
 
 
 # Author
-##Kolawole Ilesanmi
+## Kolawole Ilesanmi
 Data Analyst | Business Intelligence Developer
 
