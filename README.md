@@ -103,7 +103,7 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 👉 *“The customer base is globally distributed but heavily concentrated in Europe, indicating a strong core market with opportunities for geographic expansion.”*
 
 * SQL QUERY
-![image alt]([banking_database_er_diagram.jpg](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q1_SQL.jpg))
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q1_SQL.jpg)
 
 * Finding
 ![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q1_P.jpg)
@@ -112,7 +112,7 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 👉 *“Customer data shows widespread missing region information across multiple countries, highlighting a systemic data quality issue that could impact operations and decision-making.”*
 
 * SQL QUERY
-![image alt]([banking_database_er_diagram.jpg](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q2_SQL.jpg))
+![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Images/Q2_SQL.jpg)
 
 * Finding
 ![image alt](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Q2_P.jpg)
