@@ -76,16 +76,16 @@ The dataset used is the **Northwind SQLite database**, downloaded from Kaggle, w
 
 
 # Key Business Questions Solved
-1. List of unique countries where customers are located
-2. All customers who do not have a region assigned
-3. Total number of orders placed
-4. Total revenue using the Order Details table
-5. Total number of products in each category
-6. Customers who have placed more than 10 orders
-7. Average freight cost per customer
-8. Suppliers who supply more than 5 products
-9. Countries that have more than 5 customers
-10. Total number of orders that have not been shipped yet
+1. List of unique countries where customers are located [Q1](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q1.xlsx)
+2. All customers who do not have a region assigned [Q2](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q2.xlsx)
+3. Total number of orders placed [Q3](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q3.xlsx)
+4. Total revenue using the Order Details table [Q4](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q4.xlsx)
+5. Total number of products in each category [Q5](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q5.xlsx)
+6. Customers who have placed more than 10 orders [Q6](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q6.xlsx)
+7. Average freight cost per customer [Q7](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q7.xlsx)
+8. Suppliers who supply more than 5 products [Q8](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q8.xlsx)
+9. Countries that have more than 5 customers [Q9](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q9.xlsx)
+10. Total number of orders that have not been shipped yet [Q10](https://github.com/KollexTheAnalyst/Northwind-SQL-Business-Analysis-Project/blob/main/Results-Visualizations/Q10.xlsx)
 
 
 # Key Skills Demonstrated
